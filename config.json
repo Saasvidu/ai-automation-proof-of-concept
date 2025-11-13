@@ -1,5 +1,5 @@
 {
-  "MODEL_NAME": "Basic_Cantilever_Beam",
+  "MODEL_NAME": "beam1",
   "TEST_TYPE": "CantileverBeam",
   "GEOMETRY": {
     "length_m": 1.0,
