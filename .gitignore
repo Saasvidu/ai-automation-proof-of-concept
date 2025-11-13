@@ -64,16 +64,3 @@ __pycache__/
 # -----------------------------------------------
 
 config.json
-
-
-# -----------------------------------------------
-# --- Keep Your Project Files ---
-# -----------------------------------------------
-#
-# Use "!" to force Git to track a file
-# even if its type is ignored above.
-#
-# We want to keep our source script,
-# config, and env files.
-!simulation_runner.py
-!config.json
