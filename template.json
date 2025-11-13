@@ -1,26 +1,26 @@
 {
-  "MODEL_NAME": "Cantilever_JSON_Test",
-  "TEST_TYPE": "CantileverBeam",
+  "MODEL_NAME": "",
+  "TEST_TYPE": "",
 
   "GEOMETRY": {
-    "length_m": 1.0,
-    "width_m": 0.1,
-    "height_m": 0.1
+    "length_m": 0.0,
+    "width_m": 0.0,
+    "height_m": 0.0
   },
 
   "MATERIAL": {
-    "name": "Steel",
-    "youngs_modulus_pa": 200e9,
-    "poisson_ratio": 0.3
+    "name": "",
+    "youngs_modulus_pa": 0,
+    "poisson_ratio": 0.0
   },
 
   "LOADING": {
-    "tip_load_n": 1000.0
+    "tip_load_n": 0.0
   },
 
   "DISCRETIZATION": {
-    "elements_length": 20,
-    "elements_width": 4,
-    "elements_height": 4
+    "elements_length": 0,
+    "elements_width": 0,
+    "elements_height": 0
   }
 }
