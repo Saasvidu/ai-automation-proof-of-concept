@@ -1,0 +1,65 @@
+# -----------------------------------------------
+# --- Abaqus Temporary & Log Files ---
+# -----------------------------------------------
+#
+# Log files
+*.log
+*.log.[0-9]*
+
+# Recovery, record, and journal files
+*.rec
+*.rpy
+*.jnl
+*.jnl.[0-9]*
+
+# Lock files (prevents multiple access)
+*.lck
+
+# ACIS log files
+*.log_acis
+abaqus_acis.log
+
+# -----------------------------------------------
+# --- Abaqus Model & Results Files ---
+# -----------------------------------------------
+#
+# These are the large output files.
+# You usually want to ignore these and just
+# keep the script that *generates* them.
+#
+# Model Database
+*.cae
+*.cae.[0-9]*
+
+# Output Database (Results)
+*.odb
+
+# Other analysis files
+*.dat
+*.msg
+*.sta
+*.inp
+*.sim
+*.prt
+*.res
+*.fil
+*.mdl
+
+# -----------------------------------------------
+# --- Python Environment ---
+# -----------------------------------------------
+*.pyc
+__pycache__/
+
+# -----------------------------------------------
+# --- Keep Your Project Files ---
+# -----------------------------------------------
+#
+# Use "!" to force Git to track a file
+# even if its type is ignored above.
+#
+# We want to keep our source script,
+# config, and env files.
+!simulation_runner.py
+!config.json
+!.env
