@@ -44,6 +44,8 @@ abaqus_acis.log
 *.res
 *.fil
 *.mdl
+*.com  
+*.ipm
 
 # -----------------------------------------------
 # --- Python Environment ---
